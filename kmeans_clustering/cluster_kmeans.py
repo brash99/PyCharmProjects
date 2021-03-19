@@ -3,6 +3,9 @@ import pandas as pd
 
 def SSE(df,xcenter,xc_index):
 
+    # Function to calculate SSE, based on a dataframe, a numpy array of the cluster center positions,
+    # and a numpy array indexing each row of the dataframe to a particular center position.
+
     m = len(df)
     n = len(df.columns)
     sse = 0
@@ -15,7 +18,8 @@ def SSE(df,xcenter,xc_index):
 
 def xcenter_index(df,xcenter,k):
 
-    ########## Assign each data point to a center, based on Euclidean distance
+    ########## Function to assign each data point to a center, based on Euclidean distance
+
     m = len(df)
     n = len(df.columns)
     xcenter_index = np.full(shape=m, fill_value=0, dtype=int)
@@ -34,6 +38,8 @@ def xcenter_index(df,xcenter,k):
     return xcenter_index
 
 def cluster_kmeans(df,k):
+
+    ####### Implementation of the standard k-means clustering algorithm
 
     debug = False
 
@@ -54,14 +60,18 @@ def cluster_kmeans(df,k):
 
     if debug: print(xcenter)
 
+    # For the chosen center positions, create the center index array.
     xc_index = xcenter_index(df, xcenter, k)
+
+    # Add this index to the dataframe.
     df_with_index['Index'] = xc_index
+
+    # Get the starting SSE value for the initial center positions.
     sse = SSE(df, xcenter, xc_index)
 
     if debug: print("Initial SSE = ", sse)
 
     sse_old = sse
-
     flag = True
     while flag:
         ########## Adjust Centers
@@ -76,8 +86,8 @@ def cluster_kmeans(df,k):
         xc_index = xcenter_index(df, xcenter,k)
         df_with_index['Index'] = xc_index
         sse = SSE(df, xcenter, xc_index)
-
         if debug: print("SSE = ", sse)
+
         if (sse == sse_old):
             flag = False
 
