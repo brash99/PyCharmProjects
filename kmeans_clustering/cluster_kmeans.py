@@ -9,7 +9,6 @@ def SSE(df,xcenter,xc_index):
 
     for i in range(m):
         for j in range(n):
-            #print (i,j,df.iloc[:,j][i],xcenter[xcenter_index[i]][j])
             sse = sse + (df.iloc[:,j][i]-xcenter[xc_index[i]][j])**2
 
     return sse
