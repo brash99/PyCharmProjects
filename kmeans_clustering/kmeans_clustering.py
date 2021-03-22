@@ -6,8 +6,8 @@ from mpl_toolkits.mplot3d import Axes3D
 from cluster_kmeans import *
 
 debug = False
-k = 3
-case = 1
+k = 5
+case = 2
 
 if case == 1:
     # Case 1:  Get some 2D data from sklearn
@@ -22,7 +22,7 @@ else:
         import random
         xc = np.array([[0,0,0],[1,1,1],[-1,-1,-1],[1,-1,-1],[-1,1,1]])
 
-        radius = 0.9
+        radius = 0.2
         for j in range(100):
             for i in range(5):
                 x = random.uniform(-radius,radius)

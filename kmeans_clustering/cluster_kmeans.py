@@ -89,6 +89,7 @@ def cluster_kmeans(df,k):
         if debug: print("SSE = ", sse)
 
         if (sse == sse_old):
+            if debug: print ('Final Centers: ',xcenter)
             flag = False
 
         sse_old = sse
