@@ -16,12 +16,13 @@ def SSE(df,xcenter,xc_index):
 
     return sse
 
-def xcenter_index(df,xcenter,k):
+def xcenter_index(df,xcenter):
 
     ########## Function to assign each data point to a center, based on Euclidean distance
 
     m = len(df)
     n = len(df.columns)
+    k = len(xcenter)
     xcenter_index = np.full(shape=m, fill_value=0, dtype=int)
 
     for i in range(m):
