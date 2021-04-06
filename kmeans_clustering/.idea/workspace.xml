@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a29801ef-20b4-4c46-805e-bd983fd9161c" name="Default Changelist" comment="">
+    <list default="true" id="a29801ef-20b4-4c46-805e-bd983fd9161c" name="Default Changelist" comment="PyCharm update">
+      <change afterPath="$PROJECT_DIR$/kmeans_clustering_run_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kmeans_clustering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kmeans_clustering.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster_kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/cluster_kmeans.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,41 +36,37 @@
   </component>
   <component name="ProjectId" id="1pwCnodRpyjYnMe2QZfLVnxxEzN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration name="kmeans_clustering.py" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="kmeans_clustering_run_tests.py" type="PythonConfigurationType" factoryName="Python">
       <module name="kmeans_clustering" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv39/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans_clustering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans_clustering_run_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616167066422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PyCharm update">
+      <created>1616418458016</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616418458016</updated>
+    </task>
+    <task id="LOCAL-00004" summary="PyCharm update">
+      <created>1616529573227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616529573227</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,9 +128,68 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PyCharm update" />
     <option name="LAST_COMMIT_MESSAGE" value="PyCharm update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1074" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617670923411">
+      <screen x="0" y="23" width="2560" height="1362" />
+    </state>
+    <state x="1074" y="369" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1355@0.23.2560.1355" timestamp="1616416651459" />
+    <state x="1074" y="371" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1362@0.23.2560.1362" timestamp="1617670923411" />
+    <state x="1101" y="446" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616415315908">
+      <screen x="0" y="23" width="2560" height="1361" />
+    </state>
+    <state x="1101" y="446" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.2560.1361@0.23.2560.1361" timestamp="1616415315908" />
+    <state width="2009" height="543" key="GridCell.Tab.0.bottom" timestamp="1617730237034">
+      <screen x="0" y="23" width="2560" height="1357" />
+    </state>
+    <state width="1446" height="355" key="GridCell.Tab.0.bottom/0.23.2560.1355@0.23.2560.1355" timestamp="1616417008986" />
+    <state width="2009" height="543" key="GridCell.Tab.0.bottom/0.23.2560.1357@0.23.2560.1357" timestamp="1617730237034" />
+    <state width="2016" height="564" key="GridCell.Tab.0.bottom/0.23.2560.1361@0.23.2560.1361" timestamp="1617712481067" />
+    <state width="2016" height="261" key="GridCell.Tab.0.bottom/0.23.2560.1362@0.23.2560.1362" timestamp="1617711520144" />
+    <state width="2016" height="261" key="GridCell.Tab.0.bottom/0.23.2560.1363@0.23.2560.1363" timestamp="1617675158214" />
+    <state width="1911" height="249" key="GridCell.Tab.0.bottom/0.23.2560.1364@0.23.2560.1364" timestamp="1616529315279" />
+    <state width="2009" height="543" key="GridCell.Tab.0.center" timestamp="1617730237033">
+      <screen x="0" y="23" width="2560" height="1357" />
+    </state>
+    <state width="1446" height="355" key="GridCell.Tab.0.center/0.23.2560.1355@0.23.2560.1355" timestamp="1616417008985" />
+    <state width="2009" height="543" key="GridCell.Tab.0.center/0.23.2560.1357@0.23.2560.1357" timestamp="1617730237033" />
+    <state width="2016" height="564" key="GridCell.Tab.0.center/0.23.2560.1361@0.23.2560.1361" timestamp="1617712481067" />
+    <state width="2016" height="261" key="GridCell.Tab.0.center/0.23.2560.1362@0.23.2560.1362" timestamp="1617711520143" />
+    <state width="2016" height="261" key="GridCell.Tab.0.center/0.23.2560.1363@0.23.2560.1363" timestamp="1617675158213" />
+    <state width="1911" height="249" key="GridCell.Tab.0.center/0.23.2560.1364@0.23.2560.1364" timestamp="1616529315278" />
+    <state width="2009" height="543" key="GridCell.Tab.0.left" timestamp="1617730237033">
+      <screen x="0" y="23" width="2560" height="1357" />
+    </state>
+    <state width="1446" height="355" key="GridCell.Tab.0.left/0.23.2560.1355@0.23.2560.1355" timestamp="1616417008985" />
+    <state width="2009" height="543" key="GridCell.Tab.0.left/0.23.2560.1357@0.23.2560.1357" timestamp="1617730237033" />
+    <state width="2016" height="564" key="GridCell.Tab.0.left/0.23.2560.1361@0.23.2560.1361" timestamp="1617712481066" />
+    <state width="2016" height="261" key="GridCell.Tab.0.left/0.23.2560.1362@0.23.2560.1362" timestamp="1617711520143" />
+    <state width="2016" height="261" key="GridCell.Tab.0.left/0.23.2560.1363@0.23.2560.1363" timestamp="1617675158212" />
+    <state width="1911" height="249" key="GridCell.Tab.0.left/0.23.2560.1364@0.23.2560.1364" timestamp="1616529315278" />
+    <state width="2009" height="543" key="GridCell.Tab.0.right" timestamp="1617730237034">
+      <screen x="0" y="23" width="2560" height="1357" />
+    </state>
+    <state width="1446" height="355" key="GridCell.Tab.0.right/0.23.2560.1355@0.23.2560.1355" timestamp="1616417008986" />
+    <state width="2009" height="543" key="GridCell.Tab.0.right/0.23.2560.1357@0.23.2560.1357" timestamp="1617730237034" />
+    <state width="2016" height="564" key="GridCell.Tab.0.right/0.23.2560.1361@0.23.2560.1361" timestamp="1617712481067" />
+    <state width="2016" height="261" key="GridCell.Tab.0.right/0.23.2560.1362@0.23.2560.1362" timestamp="1617711520144" />
+    <state width="2016" height="261" key="GridCell.Tab.0.right/0.23.2560.1363@0.23.2560.1363" timestamp="1617675158213" />
+    <state width="1911" height="249" key="GridCell.Tab.0.right/0.23.2560.1364@0.23.2560.1364" timestamp="1616529315278" />
+    <state x="597" y="23" key="SettingsEditor" timestamp="1616525434654">
+      <screen x="0" y="23" width="2560" height="1364" />
+    </state>
+    <state x="272" y="240" key="SettingsEditor/0.23.2560.1355@0.23.2560.1355" timestamp="1616416576315" />
+    <state x="597" y="23" key="SettingsEditor/0.23.2560.1364@0.23.2560.1364" timestamp="1616525434654" />
+    <state x="597" y="23" key="SettingsEditor/0.23.2560.1365@0.23.2560.1365" timestamp="1616525376910" />
+    <state x="645" y="433" key="Vcs.Push.Dialog.v2" timestamp="1616529602559">
+      <screen x="0" y="23" width="2560" height="1363" />
+    </state>
+    <state x="645" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1355@0.23.2560.1355" timestamp="1616418475243" />
+    <state x="645" y="433" key="Vcs.Push.Dialog.v2/0.23.2560.1363@0.23.2560.1363" timestamp="1616529602559" />
   </component>
 </project>
